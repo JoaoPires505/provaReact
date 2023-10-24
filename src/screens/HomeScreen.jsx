@@ -1,29 +1,6 @@
 export default function HomeScreen() {
     return (
         <div>
-            {/* Começa aqui o carrossel  */}
-            <div id="carouselExample" className="carousel slide">
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img src="//picsum.photos/800/400" className="d-block w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="//picsum.photos/800/400" className="d-block w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="//picsum.photos/800/400" className="d-block w-100" alt="..." />
-                    </div>
-                </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
-            </div>
-            {/* termina  aqui o carrossel  */}
             <div className="container">
                 <div className="row">
                     <div className="col-12">
@@ -38,16 +15,16 @@ export default function HomeScreen() {
 
                                         </h1>
                                         <ul className="list-unstyled mt-3 mb-4">
-                                            <li>Acesso à central de ajuda</li>
+                                            <li>Acesso à liberdade</li>
                                         </ul>
                                         <button type="button" className="w-100 btn btn-lg btn-outline-primary">
-                                            Cadastre-se gratuitamente
+                                            Cadastre-se "de gratis"
                                         </button>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4">1</div>
-                            <div className="col-md-4">2</div>
+                            <div className="col-md-4">Você toma a pílula azul... a história acaba, você acorda na sua cama e acredita no que quiser.</div>
+                            <div className="col-md-4">Se você tomar a pílula vermelha, ficará no País das Maravilhas e eu lhe mostrarei a profundidade da toca do coelho.</div>
                         </div>
                     </div>
                 </div>
