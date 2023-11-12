@@ -17,9 +17,7 @@ export default function HomeScreen() {
                                         <ul className="list-unstyled mt-3 mb-4">
                                             <li>Acesso à liberdade</li>
                                         </ul>
-                                        <button type="button" className="w-100 btn btn-lg btn-outline-primary">
-                                            Cadastre-se "de gratis"
-                                        </button>
+
                                     </div>
                                 </div>
                             </div>

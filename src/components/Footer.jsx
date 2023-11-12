@@ -7,7 +7,7 @@ export default function Footer() {
                 <div className="row py-5">
                     <div className="col-md-3">
                         <h4>FOCAS ESPIÃS</h4>
-                        <p>Conhecereis a verdade e a verdade os libertará</p>
+                        <p>Conhecereis a verdade e a verdade vos libertará</p>
                     </div>
                     <div className="col-md-3">
                         <h4>Características</h4>
