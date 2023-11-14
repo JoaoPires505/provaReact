@@ -35,6 +35,11 @@ export default function Header() {
                   Contato
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link to="/sobre" className="nav-link">
+                  Sobre
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
